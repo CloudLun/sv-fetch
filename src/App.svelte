@@ -112,7 +112,7 @@
      console.log(jwtToken)
     try {
       const res = await fetch(
-        "http://ec2-13-41-186-60.eu-west-2.compute.amazonaws.com/base-models",
+        "https://3w6dargl5c.execute-api.eu-west-2.amazonaws.com/dev/spatial/base-models",
         {
           method: "GET",
           headers: {
